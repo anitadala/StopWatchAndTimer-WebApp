@@ -39,6 +39,7 @@ Separation of Concerns: Writing clean code by keeping HTML, CSS, and JS in separ
 
 
 /timer-stopwatch
+
 │── index.html   # App structure  
 │── style.css    # App styling  
 │── script.js    # Stopwatch & Timer functionality  
