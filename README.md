@@ -36,6 +36,8 @@ Timers in JavaScript: Understanding setInterval, clearInterval, and handling cou
 Separation of Concerns: Writing clean code by keeping HTML, CSS, and JS in separate files.
 
 📂 Project Structure
+
+
 /timer-stopwatch
 │── index.html   # App structure  
 │── style.css    # App styling  
