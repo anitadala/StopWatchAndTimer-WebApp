@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Stopwatch & Timer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Stopwatch
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Timer</h1>
+
+    <!-- Stopwatch Section -->
+    <section class="card" id="stopwatch-card">
+        <h2>Stopwatch</h2>
+        <div id="sw-display" class="display">00:00.00</div>
+        <div class="controls">
+            <button id="sw-toggle">Start</button>
+            <button id="sw-lap" class="secondary" disabled>Lap</button>
+            <button id="sw-reset" class="secondary">Reset</button>
+        </div>
+        <ul id="sw-laps" class="laps"></ul>
+    </section>
+
+    <!-- Timer Section -->
+    <section class="card" id="timer-card">
+        <h2>Timer</h2>
+        <div id="tm-display" class="display">00:30</div>
+        <div class="inputs">
+            <label>Minutes <input id="timer-min" type="number" min="0" value="0"></label>
+            <label>Seconds <input id="timer-sec" type="number" min="0" max="59" value="30"></label>
+        </div>
+        <div class="controls">
+            <button id="tm-toggle">Start</button>
+            <button id="tm-reset" class="secondary">Reset</button>
+        </div>
+    </section>
+</div>
+
+<!-- JavaScript -->
+<script src="app.js"></script>
+</body>
+</html>
